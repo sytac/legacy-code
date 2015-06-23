@@ -6,6 +6,7 @@ import java.util.Random;
 public class GameRunner {
 
     private static boolean notAWinner;
+    public static Random rand = new Random();
 
     public static void main(String[] args) {
         Game aGame = new Game();
@@ -13,8 +14,6 @@ public class GameRunner {
         aGame.add("Chet");
         aGame.add("Pat");
         aGame.add("Sue");
-
-        Random rand = new Random();
 
         do {
 
